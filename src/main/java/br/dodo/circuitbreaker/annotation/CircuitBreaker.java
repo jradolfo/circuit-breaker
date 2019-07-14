@@ -1,4 +1,4 @@
-package br.dodo.annotation;
+package br.dodo.circuitbreaker.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Inherited;

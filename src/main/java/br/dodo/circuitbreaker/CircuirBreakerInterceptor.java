@@ -1,4 +1,4 @@
-package br.dodo;
+package br.dodo.circuitbreaker;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -16,8 +16,7 @@ import javax.interceptor.InvocationContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import br.dodo.annotation.CircuitBreaker;
-import br.dodo.circuitbreaker.State;
+import br.dodo.circuitbreaker.annotation.CircuitBreaker;
 import br.dodo.circuitbreaker.exception.CircuitBreakerException;
 
 @Interceptor

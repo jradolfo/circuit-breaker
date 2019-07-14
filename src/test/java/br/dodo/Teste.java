@@ -1,6 +1,6 @@
 package br.dodo;
 
-import br.dodo.annotation.CircuitBreaker;
+import br.dodo.circuitbreaker.annotation.CircuitBreaker;
 
 class Teste {
 			
